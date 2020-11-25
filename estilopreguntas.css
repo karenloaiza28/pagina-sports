@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+        background-color: #2b3136;  
+        font-family: 'kub sans', sans-serif;
+        padding: 25px;
+        }
+
+
+ul {
+           
+            text-decoration: none;
+            background-color: #2175bc;
+            color: #fff;
+            margin: 0;
+            padding: 0px;
+            background-color: #1e2225;
+            position: fixed;
+            position: -webkit-sticky;
+            top: 0;
+            width: 95.7%;
+            
+          }
+
+
+.menuCSS3 a{
+      text-decoration:none;
+      color:inherit;
+      font-size:11px;
+      padding: 38px 10px;
+      text-align:center;
+      display:inline-block;
+      float: center;
+       }
+
+ .menuCSS3 ul{
+      
+      list-style:none;
+      margin:0;
+      padding:0;
+}
+.menuCSS3 li{
+      
+      float: left;
+      position:relative;
+      list-style-type:none;
+}
+            
+.menuCSS3 li:hover{
+
+      color: blue;
+      }
+         
+   
+.menuCSS3 li>ul{
+      display:none;
+      }
+
+
+.menuCSS3 li:hover>ul{
+      display:block;
+      position:absolute;
+      top: 80px;
+      left: 20px;
+
+}
+.menuCSS3 ul ul a {
+    line-height:100%;
+	padding:10px 2px;
+}
+	
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+	}
+
+
+
+
+form {
+	width:1450px;
+	height:630px;
+	background:#f2f1f0;
+	border-radius:8px;
+	box-shadow:0 0 40px -10px #000;
+	
+	padding:20px 30px;
+	max-width:calc(100vw - 40px);
+	box-sizing:border-box;
+	font-family:'Montserrat',sans-serif;
+	
+}
+
+
+h2 {
+	margin:50px 0;
+	padding-bottom:0px;
+	width:200px;
+	color:#78788c;
+	border-bottom:3px solid #78788c;
+    
+	
+}
+
+
+input  {
+	width:100%;
+	padding:10px 10px;
+	box-sizing:border-box;
+	background:none;
+	outline:none;
+	resize:none;
+	border:0;
+	font-family:'Montserrat',sans-serif;
+	transition:all .3s;
+	border-bottom:2px solid #bebed2;
+	
+    
+}
+
+
+input:focus {
+	border-bottom:2px solid #78788c;
+	
+}
+
+
+p:before  {
+	content:attr(type);
+	display:block;
+	margin:28px 0 0;
+	font-size:14px;
+	color:blue
+}
+
+
+
+button {
+	float:left;
+	padding:8px 12px;
+	margin:0px 12 12;
+	font-family:'Montserrat',sans-serif;
+	border:2px solid #78788c;
+	background:green;
+	color:white;
+	cursor:pointer;
+	transition:all .3s
+}
+
+
+
+button:hover  {
+	background:#78788c;
+	color:#fff
+}
+
+
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #1e2225;
+  color: #636f7a;
+}

@@ -1,0 +1,154 @@
+body {
+        background-color: darkgray;  
+        font-family: 'kub sans', sans-serif;
+        padding: 25px;
+        }
+
+
+ul {
+           
+            text-decoration:none;
+            background-color: black;
+            color: #fff;
+            margin: 0;
+            padding: 0px;
+            background-color: ;
+            position: fixed;
+            position: -webkit-sticky;
+            top: 0;
+            width: 100%;
+	        height: %;
+            
+          }
+
+
+
+.menuCSS3 a{
+      text-decoration: underline;
+      color:inherit;
+      font-size:11px;
+      padding: 50px 10px;
+      text-align:right;
+      display:inline-block;
+      float: center;
+       }
+
+
+
+ .menuCSS3 ul{
+      
+      list-style:none;
+      margin:0;
+      padding:0;
+}
+
+
+.menuCSS3 li{
+      
+      float: left;
+      position:relative;
+      list-style-type:none;
+}
+
+
+            
+.menuCSS3 li:hover{
+
+      color: red;
+      }
+         
+   
+.menuCSS3 li>ul{
+      display:none;
+      }
+
+
+.menuCSS3 li:hover>ul{
+      display:block;
+      position:absolute;
+      top: 80px;
+      left: 20px;
+
+}
+
+
+
+.menuCSS3 ul ul a {
+    line-height:100%;
+	padding:10px 2px;
+}
+	
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+	}
+
+
+
+
+
+.imgWrapper4, .imgWrapper3 {
+    font-size: 0;
+    text-align: center;
+}
+
+
+
+.imgWrapper4 .imgResponsiva,
+.imgWrapper3 .imgResponsiva {
+    display: inline-block;
+    font-size: inherit;
+}
+
+
+
+.imgWrapper4 .imgResponsiva {width: 33.3%; max-width: 500px;}
+.imgWrapper3 .imgResponsiva {width: 33.3%; max-width: 500px;}
+
+.imgResponsiva img {
+    height: auto;
+    width: 100%;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: antiquewhite;
+  color: #636f7a;
+}
+
+
+.info {
+   column-count: 2;
+   column-gap: 30px;
+   column-width: 1px;
+   background: white;
+   font-size: 15.5px;
+	        
+              
+          }
+
+table {
+   background: #f1f0ee;
+   font-size: 17px;
+   padding: 60px 25px;
+
+	        
+              
+          }
+
+.table2 {
+   background: #ffff;
+   font-size: 17px;             
+          }
+
+
+
+.info2 {
+   column-count: 2;
+   column-gap: 30px;
+   column-width: 1px;
+   background: #f1f0ee;
+   font-size: 15.5px;
+}
